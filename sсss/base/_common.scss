@@ -12,6 +12,31 @@ img {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
+.section-list {
+  display: flex;
+}
 .icon {
   fill: currentColor;
+}
+.input {
+  width: 100%;
+  min-height: 40px;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+
+  transition: border-color var(--timing-function);
+
+  &:focus {
+    border-color: var(--accent-color);
+  }
 }

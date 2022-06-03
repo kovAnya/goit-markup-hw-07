@@ -13,3 +13,14 @@
   @include fonts(null, 12px, 1.17, 0.01em);
   color: var(--secondary-color);
 }
+.modal-form__wrap {
+  position: relative;
+  display: block;
+  margin-bottom: 10px;
+}
+.modal-form__input {
+  padding-left: 42px;
+}
+.modal-form__btn {
+  padding: 10px 56px;
+}
